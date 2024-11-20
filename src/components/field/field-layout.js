@@ -18,7 +18,7 @@ export const FieldLayout = ({ field, handleCellClick }) => (
 
 FieldLayout.propTypes = {
 	field: PropTypes.arrayOf(
-		PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOUGHT]),
+		PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOBODY]),
 	),
 	handleCellClick: PropTypes.func,
 };

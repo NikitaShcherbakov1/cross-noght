@@ -1,2 +1,2 @@
-export * from './handle-cell-clik';
+export * from './handle-cell-click';
 export * from './handle-restart';

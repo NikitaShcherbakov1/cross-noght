@@ -21,9 +21,9 @@ export const GameLayout = ({
 
 GameLayout.propTypes = {
 	status: PropTypes.oneOf([STATUS.DRAW, STATUS.TURN, STATUS.WIN]),
-	currentPlayer: PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOUGHT]),
+	currentPlayer: PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOBODY]),
 	field: PropTypes.arrayOf(
-		PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOUGHT]),
+		PropTypes.oneOf([PLAYER.CROSS, PLAYER.NOUGHT, PLAYER.NOBODY]),
 	),
 	handleCellClick: PropTypes.func,
 	handleRestart: PropTypes.func,
